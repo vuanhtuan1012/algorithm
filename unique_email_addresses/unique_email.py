@@ -2,11 +2,9 @@
 # @Author: anh-tuan.vu
 # @Date:   2020-11-01 18:48:41
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2020-11-02 06:42:59
+# @Last Modified time: 2020-11-02 10:20:16
 
 class Solution(object):
-	"""docstring for UniqueEmail"""
-
 	def solution_1(self, emails):
 		seen = set()
 		for email in emails:
