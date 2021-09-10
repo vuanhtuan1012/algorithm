@@ -2,15 +2,9 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-07 08:50:48
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-07 12:26:22
+# @Last Modified time: 2021-09-10 20:19:19
 
 import unittest
-
-import os, sys
-from os.path import abspath, dirname
-__abs_cur_file_path = abspath(__file__)
-__algo_dir = dirname(dirname(__abs_cur_file_path))
-
 from add_two_numbers import add_two_numbers as atn
 
 
@@ -20,7 +14,6 @@ class AddTwoNumbers(unittest.TestCase):
     l3 = atn.ListNode.fromList([2, 3])
     l4 = atn.ListNode.fromList([9, 8])
     l5 = atn.ListNode.fromList([4, 5])
-
 
     def testcase_1(self):
         res = atn.addTwoNumbers(self.l1, self.l2)

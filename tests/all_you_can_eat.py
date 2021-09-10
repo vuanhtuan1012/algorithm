@@ -2,16 +2,11 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-10 19:12:12
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-10 20:03:42
+# @Last Modified time: 2021-09-10 20:19:33
 
 import unittest
-
-import os, sys
-from os.path import abspath, dirname
-__abs_cur_file_path = abspath(__file__)
-__algo_dir = dirname(dirname(__abs_cur_file_path))
-
 from all_you_can_eat import all_you_can_eat as ayce
+
 
 class AllYouCanEat(unittest.TestCase):
     nb_seats = 2

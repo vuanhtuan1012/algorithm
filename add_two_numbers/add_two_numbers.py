@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-06 23:46:17
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-07 10:16:45
+# @Last Modified time: 2021-09-10 20:10:11
 
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -10,7 +10,7 @@ class ListNode:
         self.next = next
 
     @classmethod
-    def fromList(cls, nums:list):
+    def fromList(cls, nums: list):
         """
 create a ListNode from a list"""
         dummy = cls()
@@ -49,8 +49,7 @@ override eq method, used to compare =="""
             return str(self) == str(other)
 
 
-
-def addTwoNumbers(l1:ListNode, l2:ListNode) -> ListNode:
+def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     dummy = ListNode()
     carry = 0
     cur = dummy
