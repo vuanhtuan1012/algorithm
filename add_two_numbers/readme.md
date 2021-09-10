@@ -27,3 +27,8 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 -   The number of nodes in each linked list is in the range  `[1, 100]`.
 -   `0 <= Node.val <= 9`
 -   It is guaranteed that the list represents a number that does not have leading zeros.
+
+**Solution:**
+
+- code: [add_two_numbers.py](add_two_numbers.py)
+- test cases: [unique_email.py](../tests/add_two_numbers.py)

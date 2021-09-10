@@ -32,7 +32,12 @@ Given a list of  `emails`, we send one email to each address in the list. How ma
 -   All local and domain names are non-empty.
 -   Local names do not start with a  `'+'`  character.
 
-(Source: [LeetCode](https://leetcode.com) - [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/))
+<!-- (Source: [LeetCode](https://leetcode.com) - [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)) -->
+
+**Solution:**
+
+- code: [unique_email.py](unique_email.py)
+- test cases: [unique_email.py](../tests/unique_email.py)
 
 <!--
 ## Analysis
