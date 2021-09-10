@@ -34,4 +34,4 @@ You can return the answer in any order.
 **Solution:**
 
 - code: [two_sum.py](two_sum.py)
-- test cases: [unique_email.py](../tests/two_sum.py)
+- test cases: [two_sum.py](../tests/two_sum.py)
