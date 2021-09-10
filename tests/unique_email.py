@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2020-11-01 18:42:32
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-07 10:16:40
+# @Last Modified time: 2021-09-07 12:26:28
 
 import unittest
 
@@ -12,6 +12,7 @@ __abs_cur_file_path = abspath(__file__)
 __algo_dir = dirname(dirname(__abs_cur_file_path))
 
 from unique_email_addresses import unique_email as uea
+
 
 class UniqueEmail(unittest.TestCase):
 	emails = ["test.email+alex@leetcode.com",

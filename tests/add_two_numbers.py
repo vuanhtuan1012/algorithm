@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-07 08:50:48
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-07 10:27:14
+# @Last Modified time: 2021-09-07 12:26:22
 
 import unittest
 
@@ -12,6 +12,7 @@ __abs_cur_file_path = abspath(__file__)
 __algo_dir = dirname(dirname(__abs_cur_file_path))
 
 from add_two_numbers import add_two_numbers as atn
+
 
 class AddTwoNumbers(unittest.TestCase):
     l1 = atn.ListNode.fromList([7])
