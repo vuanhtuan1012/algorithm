@@ -1,5 +1,6 @@
 # Problems
 
-1.  [Unique email addresses](unique_email_addresses)
-2.  [Add Two Numbers](add_two_numbers)
-3.  [Two Sum](two_sum)
+1. [Unique Email Addresses](unique_email_addresses)
+2. [Add Two Numbers](add_two_numbers)
+3. [Two Sum](two_sum)
+4. [All You Can Eat](all_you_can_eat)
