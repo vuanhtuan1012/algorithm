@@ -2,17 +2,17 @@
 * @Author: anh-tuan.vu
 * @Date:   2021-09-10 21:02:18
 * @Last Modified by:   anh-tuan.vu
-* @Last Modified time: 2021-09-10 21:23:09
+* @Last Modified time: 2021-09-11 07:43:17
 */
 
 function score(nameP1, nameP2, wins){
     let score1 = 0
     let score2 = 0
-    for (let name of wins) {
-        if (name === nameP1) {
+    for (let name of wins){
+        if (name === nameP1){
             score1 += 1
         }
-        if (name === nameP2) {
+        if (name === nameP2){
             score2 += 1
         }
     }
@@ -36,7 +36,7 @@ function score(nameP1, nameP2, wins){
     let res = nameP1 + ' ' + translate_score(score1) + ' - '
             + nameP2 + ' ' + translate_score(score2)
     let diff = score1 - score2
-    if ((score1 == score2) && (score1 >= 3)) {
+    if ((score1 == score2) && (score1 >= 3)){
         res = 'DEUCE'
     }
     if ((diff == 1) && (score1 >= 4)){

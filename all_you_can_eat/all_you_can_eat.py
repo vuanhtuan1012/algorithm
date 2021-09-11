@@ -2,10 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-10 19:09:55
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-10 20:05:15
-
-# Casino All You Can Eat challenge
-# https://github.com/frferrari/CasinoAllYouCanEat
+# @Last Modified time: 2021-09-11 07:42:36
 
 def computeDayGains(nb_seats, paying_guests, guest_movements):
     restaurant = set()
