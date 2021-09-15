@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-07 12:25:30
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-15 08:21:42
+# @Last Modified time: 2021-09-15 08:25:37
 
 import unittest
 from two_sum import two_sum as ts
@@ -11,7 +11,7 @@ from two_sum import two_sum as ts
 class TwoSum(unittest.TestCase):
     nums = [[2, 7, 11, 15],
             [3, 2, 4],
-            [3, 4]]
+            [3, 3]]
     targets = [9, 6, 6]
     expected = [[0, 1],
                 [1, 2],
