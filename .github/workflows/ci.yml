@@ -18,4 +18,4 @@ jobs:
         python-version: 3.9   
     - name: Test with unittests
       run: |
-        python3 -m unittests tests.two_sum -v
+        python3 -m unittest tests.two_sum -v
