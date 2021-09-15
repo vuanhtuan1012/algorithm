@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-07 12:21:53
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-15 11:24:11
+# @Last Modified time: 2021-09-15 11:27:18
 
 def twoSum(nums: list, target: int) -> list:
     hashmap = dict()
@@ -11,7 +11,7 @@ def twoSum(nums: list, target: int) -> list:
         if comp in hashmap:
             return [i, hashmap[comp]]
         else:
-            hashmap[nums[i]] = i+1
+            hashmap[nums[i]] = i
 
 
 if __name__ == '__main__':
