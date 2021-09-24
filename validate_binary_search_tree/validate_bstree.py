@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-24 13:39:14
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2021-09-24 14:52:44
+# @Last Modified time: 2021-09-24 15:03:17
 
 class TreeNode:
     def __init__(self, val=None, left=None, right=None):
@@ -97,8 +97,3 @@ if __name__ == '__main__':
     print(root)
     print(isValidBST_1(root))
     print(isValidBST_2(root))
-
-    nodes = [vbst.TreeNode([2, 1, 3]),
-             vbst.TreeNode([5, 1, 4, None, None, 3, 6]),
-             vbst.TreeNode([0])]
-    print(nodes[0])
