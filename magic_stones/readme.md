@@ -8,12 +8,13 @@ Luckily you can use your magic powers to combine two stones of level `i` to form
 
 Use your power to minimise the number of stones that you have.
 
-**Input:** A list of stones with its level
+**Input:** A list of stones with its level.
+
 **Output:**  The minimum number of stones you can have.
 
 **Example:**
-- Input: [1, 2, 1]
-- Output: 1
+- Input: `[1, 2, 1]`
+- Output: `1`
 
 **Constraints:** `0 <  N  < 1000`
 
