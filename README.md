@@ -37,3 +37,14 @@ ascii_code = ord(c)  # c is a character
 ```Python
 c = chr(ascii_code)  # ascii_code is an integer
 ```
+
+### Padding a string
+```Python
+txt = '*'
+print(txt.rjust(5))
+# return
+# '    *' (4 spaces before the star)
+
+print(txt.ljust(5))
+# return
+# '*    ' (4 spaces after the star)
