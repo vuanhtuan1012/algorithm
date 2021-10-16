@@ -43,8 +43,12 @@ c = chr(ascii_code)  # ascii_code is an integer
 txt = '*'
 print(txt.rjust(5))
 # return
-# '    *' (4 spaces before the star)
+# '    *' (4 spaces before the asterisk)
 
 print(txt.ljust(5))
 # return
-# '*    ' (4 spaces after the star)
+# '*    ' (4 spaces after the asterisk)
+
+print(txt.center(5))
+# return
+# '  *  ' (2 spaces before and after the asterisk)
