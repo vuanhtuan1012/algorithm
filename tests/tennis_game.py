@@ -2,7 +2,7 @@
 # @Author: anh-tuan.vu
 # @Date:   2021-09-10 20:48:43
 # @Last Modified by:   anh-tuan.vu
-# @Last Modified time: 2022-01-15 16:58:04
+# @Last Modified time: 2022-01-15 17:01:51
 
 import unittest
 from tennis_game import tennis_game as tg
@@ -34,7 +34,7 @@ class TennisGame(unittest.TestCase):
 
     def testcase_1(self):
         res = tg.score(self.nameP1, self.nameP2, self.wins[0])
-        self.assertTrue(res == self.expected[1])
+        self.assertTrue(res == self.expected[0])
 
     def testcase_2(self):
         res = tg.score(self.nameP1, self.nameP2, self.wins[1])
